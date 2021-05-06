@@ -50,6 +50,15 @@ body {
             color: $gray;
           }
 
+          a:hover,
+          a:active {
+            color: $yellow;
+            transition: 0.5;
+            -webkit-transition: color 1000ms linear;
+            -ms-transition: color 1000ms linear;
+            transition: color 1000ms linear;
+          }
+
           .a-active {
             color: $white !important;
             border-bottom: 2px solid $white;
@@ -121,11 +130,22 @@ body {
         grid-area: buttons;
 
         button {
+          cursor: pointer;
           border-radius: 50px;
           padding: 7px;
           width: 10rem;
           border: 1px solid $white;
           font-size: medium;
+        }
+
+        button:hover,
+        button:active {
+          background-color: $yellow;
+          color: $purple;
+          border-color: $purple;
+          -webkit-transition: background-color 500ms;
+          -ms-transition: background-color 500ms;
+          transition: background-color 500ms;
         }
 
         .btn-fill {
