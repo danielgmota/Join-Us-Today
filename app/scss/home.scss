@@ -1,17 +1,13 @@
 body {
-  // background-image: url('../assets/img/bg-page-compressed.jpg');
   background: linear-gradient(rgba($purple-dark, 0.8), rgba($purple, 0.8)),
     url('../assets/img/bg-page-compressed.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 
   .container {
-    width: 1300px;
-    height: 100vh;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 10fr;
     grid-template-areas:
       'header'
       'nav'
@@ -19,8 +15,9 @@ body {
 
     header {
       margin: 0 auto;
+      width: max-content;
       grid-area: header;
-      margin-bottom: 5px;
+      margin-bottom: 3rem;
 
       .bg-logo {
         background-color: $white;
@@ -35,6 +32,8 @@ body {
 
     nav {
       grid-area: nav;
+      margin: 0 auto;
+      min-width: 70vw;
 
       ul {
         list-style: none;
@@ -60,8 +59,8 @@ body {
     }
 
     main {
-      margin: 0 auto;
       grid-area: main;
+      margin: 0 auto;
       display: grid;
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas:
@@ -71,7 +70,7 @@ body {
 
       .title {
         grid-area: title;
-        width: 30vw;
+        max-width: 60%;
         height: max-content;
         margin: 0 auto;
         margin-top: auto;
@@ -126,6 +125,7 @@ body {
           padding: 7px;
           width: 10rem;
           border: 1px solid $white;
+          font-size: medium;
         }
 
         .btn-fill {

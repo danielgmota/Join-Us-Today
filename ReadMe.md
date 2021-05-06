@@ -17,5 +17,5 @@ ToDo
 - [x] Palette colors
 - [x] SCSS
 - [x] Import Font Aewsome free
-- [ ] Responsive
+- [x] Responsive
 - [ ] Customize with TS

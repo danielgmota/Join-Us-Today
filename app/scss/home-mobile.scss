@@ -1,0 +1,42 @@
+@media (min-width: 768px) {
+  .container {
+    width: 1300px;
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-attachment: fixed;
+
+    .container {
+      main {
+        height: 100vh;
+
+        .carousel {
+          grid-template-columns: 1fr !important;
+
+          .item {
+            margin: 2rem 0;
+          }
+        }
+
+        .buttons {
+          display: grid;
+          grid-template-columns: 1fr !important;
+          padding: 3rem 0;
+
+          button {
+            margin: 0 !important;
+            padding: 1rem;
+            font-size: x-large;
+          }
+
+          button:first-child {
+            margin-bottom: 2rem !important;
+          }
+        }
+      }
+    }
+  }
+}
