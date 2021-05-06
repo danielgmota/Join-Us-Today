@@ -1,6 +1,12 @@
 # Join Us Today
 
-Plan
+Generate DIST folder
+
+```javascript
+$ npm run build
+```
+
+ToDo
 
 - [x] Install git / npm
 - [x] Install typescript

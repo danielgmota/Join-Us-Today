@@ -1,10 +1,11 @@
 body {
-  background-image: url('../img/bg-page-compressed.jpg');
+  // background-image: url('../assets/img/bg-page-compressed.jpg');
+  background: linear-gradient(rgba($purple-dark, 0.8), rgba($purple, 0.8)),
+    url('../assets/img/bg-page-compressed.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 
   .container {
-    background-color: $purple-dark;
     width: 1300px;
     height: 100vh;
     margin: 0 auto;
