@@ -1,0 +1,15 @@
+@import 'color-palette.scss';
+@import 'fonts.scss';
+
+@import '../../node_modules/@fortawesome/fontawesome-free/css/fontawesome.css';
+@import '../../node_modules/@fortawesome/fontawesome-free/css/solid.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-size: small;
+  color: $white;
+}
+
+@import 'home.scss';

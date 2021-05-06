@@ -7,8 +7,8 @@ Plan
 - [x] Install Eslint with typescript
 - [x] Create HTML layout
 - [ ] Import Assets
+- [ ] Fonts
 - [ ] Palette colors
 - [ ] SCSS
-- [ ] Fonts
 - [ ] Create SCSS
 - [ ] Customize with TS
