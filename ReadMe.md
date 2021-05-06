@@ -6,9 +6,10 @@ Plan
 - [x] Install typescript
 - [x] Install Eslint with typescript
 - [x] Create HTML layout
-- [ ] Import Assets
-- [ ] Fonts
-- [ ] Palette colors
-- [ ] SCSS
-- [ ] Create SCSS
+- [x] Import Assets
+- [x] Fonts
+- [x] Palette colors
+- [x] SCSS
+- [x] Import Font Aewsome free
+- [ ] Responsive
 - [ ] Customize with TS
