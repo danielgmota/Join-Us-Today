@@ -1,10 +1,13 @@
 {
-  "name": "Desafio",
+  "name": "join-us-today",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass ./app/scss/styles.scss ./dist/css/styles.css --output-style compressed",
+    "sassw": "node-sass --watch -w ./app/scss/styles.scss ./dist/css/styles.css --output-style compressed",
+    "copy": "([ -d dist ] || mkdir dist) && cp ./app/index.html ./dist/index.html && cp -r ./app/assets ./dist",
+    "build": "npm run sass && npm run copy"
   },
   "keywords": [],
   "author": "",
