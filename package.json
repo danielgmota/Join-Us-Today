@@ -5,8 +5,8 @@
   "main": "index.html",
   "scripts": {
     "sass": "node-sass ./app/scss/styles.scss ./dist/css/styles.css --output-style compressed",
-    "sassw": "node-sass --watch -w ./app/scss/styles.scss ./dist/css/styles.css --output-style compressed",
-    "copy": "([ -d dist ] || mkdir dist) && cp ./app/index.html ./dist/index.html && cp -r ./app/assets ./dist",
+    "sassw": "node-sass --watch -w ./app/scss/styles.scss ./dist/css/styles.css",
+    "copy": "([ -d dist ] || mkdir dist) && cp ./app/index.html ./dist/index.html && cp -r ./app/assets ./dist && cp -r ./app/js ./dist",
     "build": "npm run sass && npm run copy"
   },
   "keywords": [],

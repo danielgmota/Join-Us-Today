@@ -18,4 +18,4 @@ ToDo
 - [x] SCSS
 - [x] Import Font Aewsome free
 - [x] Responsive
-- [ ] Customize with TS
+- [x] Customize with TS
